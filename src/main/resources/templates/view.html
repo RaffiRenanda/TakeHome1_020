@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        h1 {
+            color: silver;
+            font-style: oblique;
+            
+        }
+        body {
+            text-align: center;
+            background-color: brown;
+        }
+        fieldset{
+            background-color : maroon;
+        }
+        l {
+            color: white;
+            font-size: 24px;
+            font-style: italic;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Lokasi Wisata</h1>
+        <hr/>
+    <l> Nama:  </l>    
+    <l th:text="${pertama1}"></l>
+    <br/> <br/> 
+    <l> Lokasi: </l>
+    <l th:text="${kedua1}"></l>
+    <br/><!-- comment --><br/> 
+    <img th:src="${foto1}" style="width: 90%; display: block; margin-left: auto; margin-right: auto";>
+    </body>
+</html>
